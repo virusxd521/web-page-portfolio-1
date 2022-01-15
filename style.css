@@ -122,3 +122,80 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* Header */
+.header {
+  display: flex;
+}
+
+/* navigation  */
+.header-nav nav {
+  display: flex;
+}
+
+/* Main presentaion section */
+.main-presentation {
+  background-image: url("./img/bg-newYork.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Main description */
+.main-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-description > p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.description-concepts {
+  display: flex;
+}
+
+/* main-skills  */
+
+.main-skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-skills * {
+  margin: 0 auto;
+}
+
+/* main portfolio  */
+.main-portfolio {
+  display: flex;
+  flex-direction: column;
+  background-color: midnightblue;
+}
+
+.main-portfolio * {
+  margin: 0 auto;
+}
+
+/* individual portfolio boxes */
+.portfolio-box {
+  display: flex;
+  border: solid 2px white;
+  background-color: rgb(143, 143, 143);
+}
+
+/* all the portfolio boxes  */
+.full-portfolio-box {
+  display: flex;
+}
+
+/* About me section */
+.main-about-me {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-about-me * {
+  margin: 0 auto;
+}
